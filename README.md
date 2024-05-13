@@ -5,3 +5,9 @@ Create Pivot Table: We use the pivot_table() function to create a pivot table. I
 
 Display Pivot Table: Finally, we print the pivot table to visualize the summarized data.
 
+I add the task number 5 to number 4 .
+We first load or create a DataFrame named df containing our dataset.(as you know I did it in task 4)
+We then use the drop_duplicates() method on the DataFrame to remove duplicate rows.
+The resulting DataFrame without duplicates is stored in a new variable named df_no_duplicates.
+Finally, we print the DataFrame df_no_duplicates to display the dataset without duplicates.
+This code will identify and remove duplicate rows based on all columns by default. You can customize the behavior by specifying the subset of columns to consider for identifying duplicates using the subset parameter of the drop_duplicates() method.
